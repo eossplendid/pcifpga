@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SCL>
+    <Device name="Dev1-1" ip="192.168.1.100" no="1">
+        <Common>
+            <version>1.01</version>
+        </Common>
+        <Address>
+            <LocIp>192.168.1.100</LocIp>
+            <SubnetMask>255.255.255.0</SubnetMask>
+            <Gateway>192.168.1.1</Gateway>
+            <RemIp>192.168.1.5</RemIp>
+            <RemPort>2010</RemPort>
+        </Address>
+        <Parameter>
+            <DeviceNo>1</DeviceNo>
+            <Name>未命名</Name>
+            <ChnlNum>2</ChnlNum>
+            <FileFormat>0</FileFormat>
+            <FileSavedPeriod>600</FileSavedPeriod>
+            <FileMaxSize>50</FileMaxSize>
+            <HarddiskCheckedPercentage>50</HarddiskCheckedPercentage>
+            <TimeZone>8</TimeZone>
+            <HeartBeatPeriod>3</HeartBeatPeriod>
+            <GpsInterface>0</GpsInterface>
+        </Parameter>
+        <ChannelList>
+            <Channel no="1">
+                <CapturePacketType>7</CapturePacketType>
+                <InterfaceType>0</InterfaceType>
+                <AccessLocation> </AccessLocation>
+                <Filter>
+                    <MaxFrameLen>1514</MaxFrameLen>
+                    <MinFrameLen>30</MinFrameLen>
+                    <VlanId>
+                        <V no="1" value="12" />
+                        <V no="2" value="11" />
+                    </VlanId>
+                    <PacketType>7</PacketType>
+                </Filter>
+                <IEDList>
+                    <IED name="P-No-1" mac="C1:22:22:20:A1:C1">
+                        <Type>&quot;保护&quot;</Type>
+                        <Bay>&quot;&quot;</Bay>
+                        <Manufacturer>nari</Manufacturer>
+                        <Desc>直流差动保护装置</Desc>
+                        <BayIp>23.10.12.121</BayIp>
+                        <BayIp2>231.10.13.255</BayIp2>
+                        <SMV>
+                            <Type>3</Type>
+                            <DestMac>01-0c-cd-04-00-01</DestMac>
+                            <SourceMac>20-b7-c0-00-07-76</SourceMac>
+                            <SmpRatePerFreq>80</SmpRatePerFreq>
+                            <SmpTimeDeviation>10</SmpTimeDeviation>
+                            <VlanId>0</VlanId>
+                            <Priority>0</Priority>
+                            <AppId>16384</AppId>
+                            <Smv92>
+                                <SmvId>---</SmvId>
+                                <DatasetRef>---</DatasetRef>
+                                <Channel desc="C0:16:21:23:12:19" />
+                            </Smv92>
+                        </SMV>
+                        <GOOSEList>
+                            <GOOSE cbRef="go-12612" datasetRef="" goID="Go-Inst-1661">
+                                <GoId>Go-Inst-1661</GoId>
+                                <DestMac>C0:16:21:23:12:19</DestMac>
+                                <SourceMac>00-00-00-00-00-00</SourceMac>
+                                <SourceMac2>00-00-00-00-00-00</SourceMac2>
+                                <VlanId>1365</VlanId>
+                                <Priority>4</Priority>
+                                <AppId>66</AppId>
+                                <CbRef>go-12612</CbRef>
+                                <DatasetRef> </DatasetRef>
+                                <LdInst>---</LdInst>
+                                <MinTime>1</MinTime>
+                                <MaxTime>1000</MaxTime>
+                                <Channel desc="" />
+                            </GOOSE>
+                        </GOOSEList>
+                    </IED>
+                    <IED name="T-no-1" mac="20:12:11:12:11:1C">
+                        <Type>测量</Type>
+                        <Bay>bay</Bay>
+                        <Manufacturer>nari</Manufacturer>
+                        <Desc>测量单元</Desc>
+                        <BayIp>255.255.255.255</BayIp>
+                        <BayIp2>255.255.255.255</BayIp2>
+                        <SMV>
+                            <Type>1</Type>
+                            <DestMac>01-0c-cd-04-00-01</DestMac>
+                            <SourceMac>20-b7-c0-00-07-76</SourceMac>
+                            <SmpRatePerFreq>80</SmpRatePerFreq>
+                            <SmpTimeDeviation>10</SmpTimeDeviation>
+                            <VlanId>0</VlanId>
+                            <Priority>4</Priority>
+                            <AppId>8000</AppId>
+                            <Smv92>
+                                <SmvId>&quot;&quot;</SmvId>
+                                <DatasetRef>&quot;&quot;</DatasetRef>
+                                <Channel desc="数据集各个通道配置">
+                                    <C no="1" type="电流" name="A相相电流保护用" />
+                                    <C no="2" type="电流" name="B相相电流保护用" />
+                                    <C no="3" type="电流" name="C相相电流保护用" />
+                                    <C no="4" type="电流" name="中性点相电流" />
+                                    <C no="5" type="电流" name="A相相电流测量用" />
+                                    <C no="6" type="电流" name="B相相电流测量用" />
+                                    <C no="7" type="电流" name="C相相电流测量用" />
+                                    <C no="8" type="电压" name="A相相电压" />
+                                    <C no="9" type="电压" name="B相相电压" />
+                                    <C no="10" type="电压" name="C相相电压" />
+                                    <C no="11" type="电压" name="母线电压" />
+                                    <C no="12" type="电压" name="A相电压" />
+                                </Channel>
+                            </Smv92>
+                        </SMV>
+                        <GOOSEList />
+                    </IED>
+                </IEDList>
+            </Channel>
+            <Channel no="2">
+                <CapturePacketType>0</CapturePacketType>
+                <InterfaceType>0</InterfaceType>
+                <AccessLocation>1234</AccessLocation>
+                <Filter>
+                    <MaxFrameLen>1514</MaxFrameLen>
+                    <MinFrameLen>30</MinFrameLen>
+                    <VlanId />
+                    <MacList />
+                    <PacketType>0</PacketType>
+                </Filter>
+                <IEDList>
+                    <IED name="未命名" mac="">
+                        <Type>&quot;保护&quot;</Type>
+                        <Bay>&quot;&quot;</Bay>
+                        <Manufacturer>&quot;&quot;</Manufacturer>
+                        <Desc>&quot;&quot;</Desc>
+                        <BayIp>255.255.255.255</BayIp>
+                        <BayIp2>255.255.255.255</BayIp2>
+                        <SMV>
+                            <Type>1</Type>
+                            <DestMac>&quot;01-0c-cd-02-00-ff&quot;</DestMac>
+                            <SourceMac>&quot;00-c1-20-a8-11-6c&quot;</SourceMac>
+                            <SmpRatePerFreq>80</SmpRatePerFreq>
+                            <SmpTimeDeviation>10</SmpTimeDeviation>
+                            <VlanId>0</VlanId>
+                            <Priority>4</Priority>
+                            <AppId>12345</AppId>
+                            <Smv92>
+                                <SmvId>&quot;&quot;</SmvId>
+                                <DatasetRef>&quot;&quot;</DatasetRef>
+                                <Channel desc="数据集各个通道配置">
+                                    <C no="1" type="电流" name="A相相电流保护用" />
+                                    <C no="2" type="电流" name="B相相电流保护用" />
+                                    <C no="3" type="电流" name="C相相电流保护用" />
+                                    <C no="4" type="电流" name="中性点相电流" />
+                                    <C no="5" type="电流" name="A相相电流测量用" />
+                                    <C no="6" type="电流" name="B相相电流测量用" />
+                                    <C no="7" type="电流" name="C相相电流测量用" />
+                                    <C no="8" type="电压" name="A相相电压" />
+                                    <C no="9" type="电压" name="B相相电压" />
+                                    <C no="10" type="电压" name="C相相电压" />
+                                    <C no="11" type="电压" name="母线电压" />
+                                    <C no="12" type="电压" name="A相电压" />
+                                </Channel>
+                            </Smv92>
+                        </SMV>
+                        <GOOSEList />
+                    </IED>
+                    <IED name="未命名" mac="">
+                        <Type>&quot;&quot;</Type>
+                        <Bay>&quot;&quot;</Bay>
+                        <Manufacturer>&quot;&quot;</Manufacturer>
+                        <Desc>&quot;&quot;</Desc>
+                        <BayIp>255.255.255.255</BayIp>
+                        <BayIp2>255.255.255.255</BayIp2>
+                        <SMV>
+                            <Type>1</Type>
+                            <DestMac>&quot;01-0c-cd-02-00-ff&quot;</DestMac>
+                            <SourceMac>&quot;00-c1-20-a8-11-6c&quot;</SourceMac>
+                            <SmpRatePerFreq>80</SmpRatePerFreq>
+                            <SmpTimeDeviation>10</SmpTimeDeviation>
+                            <VlanId>0</VlanId>
+                            <Priority>4</Priority>
+                            <AppId>12345</AppId>
+                            <Smv92>
+                                <SmvId>&quot;&quot;</SmvId>
+                                <DatasetRef>&quot;&quot;</DatasetRef>
+                                <Channel desc="数据集各个通道配置">
+                                    <C no="1" type="电流" name="A相相电流保护用" />
+                                    <C no="2" type="电流" name="B相相电流保护用" />
+                                    <C no="3" type="电流" name="C相相电流保护用" />
+                                    <C no="4" type="电流" name="中性点相电流" />
+                                    <C no="5" type="电流" name="A相相电流测量用" />
+                                    <C no="6" type="电流" name="B相相电流测量用" />
+                                    <C no="7" type="电流" name="C相相电流测量用" />
+                                    <C no="8" type="电压" name="A相相电压" />
+                                    <C no="9" type="电压" name="B相相电压" />
+                                    <C no="10" type="电压" name="C相相电压" />
+                                    <C no="11" type="电压" name="母线电压" />
+                                    <C no="12" type="电压" name="A相电压" />
+                                </Channel>
+                            </Smv92>
+                        </SMV>
+                        <GOOSEList />
+                    </IED>
+                </IEDList>
+            </Channel>
+        </ChannelList>
+    </Device>
+</SCL>

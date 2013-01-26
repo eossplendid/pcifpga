@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<RECORD>
+	<Amount>3</Amount>
+	<CurrentDisk>diskA</CurrentDisk>
+	<DiskList>
+	<DiskA>
+		<Amount>1</Amount>
+		<File no="1" startTime="20121015221612" endTime="20121016083015">
+			<chNo>1</chNo>
+			<status>0</status>
+			<position>diskA</position>
+			<path>/sda/diskA/</path>
+			<realname>X1111234</realname>
+			<filename>XXX-D-C-YYYYMMDDHHmmSS</filename>
+			<packCnt>5000</packCnt>
+		</File>
+	</DiskA>
+	<DiskB>
+		<Amount>3</Amount>
+		<File no="1" startTime="20121215221612" endTime="20121015221644">
+			<chNo>1</chNo>
+			<status>0</status>
+			<position>diskB</position>
+			<path>/sda/diskB/</path>
+			<realname>X1111234</realname>
+			<filename>XXX-D-C-YYYYMMDDHHmmSS</filename>
+			<packCnt>6785</packCnt>	
+		</File>
+		<File no="2" startTime="20121215221612" endTime="20121015221644">
+			<chNo>1</chNo>
+			<status>0</status>
+			<position>diskB</position>
+			<path>/sda/diskB/</path>
+			<realname>X1111234</realname>
+			<filename>XXX-D-C-YYYYMMDDHHmmSS</filename>
+			<packCnt>6785</packCnt>	
+		</File>
+		<File no="3" startTime="20121215221612" endTime="20121015221644">
+			<chNo>1</chNo>
+			<status>0</status>
+			<position>diskB</position>
+			<path>/sda/diskB/</path>
+			<realname>X1111234</realname>
+			<filename>XXX-D-C-YYYYMMDDHHmmSS</filename>
+			<packCnt>6785</packCnt>	
+		</File>
+	</DiskB>
+	<DiskC>
+		<Amount>1</Amount>
+		<File no="1" startTime="20121215221612" endTime="20121015221644">
+			<chNo>1</chNo>
+			<status>0</status>
+			<position>diskC</position>
+			<path>/sda/diskC</path>
+			<realname>X1111234</realname>
+			<filename>XXX-D-C-YYYYMMDDHHmmSS</filename>
+			<packCnt>5000</packCnt>	
+		</File>
+	</DiskC>
+	<DiskD>
+		<Amount>0</Amount>
+	</DiskD>
+	<DiskE>
+		<Amount>0</Amount>
+	</DiskE>
+	<DiskF>
+		<Amount>0</Amount>
+	</DiskF>
+	</DiskList>
+</RECORD>
